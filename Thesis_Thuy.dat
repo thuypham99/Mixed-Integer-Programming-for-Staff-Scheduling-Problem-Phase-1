@@ -1,0 +1,9 @@
+/*********************************************
+ * OPL 12.6.2.0 Data
+ * Author: Thuy Pham
+ * Creation Date: Mar 2, 2021 at 1:51:45 AM
+ *********************************************/
+SheetConnection MyData("Big order.xlsx");
+K from SheetRead(MyData,"KpiOffEm!B2:H4");
+SD from SheetRead(MyData,"OrderDay!B2:H4");
+SN from SheetRead(MyData,"OrderNight!B2:H4");
