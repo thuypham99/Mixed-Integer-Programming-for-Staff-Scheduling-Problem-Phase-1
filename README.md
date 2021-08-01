@@ -1,14 +1,14 @@
-- 👋 Hi, I’m @thuypham99
+- 👋 Hi, I’m Thuy Pham Tran Minh
 - 👀 This is the thesis topic for the Degree of Bachelor of Engineering in Logistics and Supply Chain Management
 - 📫 How to reach me: phamtranminhthuy@gmail.com
 
 ✨ METAHEURISTIC FOR STAFF SCHEDULING PROBLEM IN ORDER FULFILLMENT: A CASE STUDY OF LAZADA ELOGISTICS VIETNAM ✨
 
-✨ Objectives of Study: 
+- Objectives of Study: 
 
 The solution of the scheduling model in this study will help not only Lazada E-Logistics Express but also other e-commerce platforms which have its order fulfillment service launch its outbound sales plan. When a vast majority of customer orders occurs, the outbound operation needs to work in full capacity. The rostering team needs some support tools to assign both temporary and official staff effectively in each area. Therefore, utilizing this rostering implementation in sales campaigns will help a company make the right decision at the right time to hire employees with affordable costs whilst satisfying worker preferences. These tools also can help managers reduce a bottleneck caused by improper assignment. Simultaneously, building a transparent contract including legal regulations, workplace policies, penalty, fixed labor cost, bonus cost, and other conditions not only ensure the rights and duties of employees but also help a warehouse avoid a sudden withdrawal.
 
-✨ Scope:
+- Scope:
 
 The use of scheduling methods is crucial in building an effective real-world staff scheduling problem. This paper is aimed at solving a problem domain from order fulfillment industry, which plays a key vital to satisfy such a sudden increase of customer satisfactions, especially in Covid-19 pandemic by and large. There are two main objective functions including minimize the hiring cost and maximize the aspirations of workers. 
 
@@ -16,7 +16,7 @@ In this research, Requirement-Based Staff Scheduling Algorithm (RSSA) is introdu
 
 ------------- MODELLING FOR MATHEMATICAL MODEL PHASE 1 -------------
 
-✨ Sets and Indices
+- Sets and Indices
 
 ⅇ: Index of employees ⅇ=1…E (e ∈ Off/ e ∈ Temp/ e ∈Twday/ e ∈ Thday/ e ∈ Fiday)
 
@@ -32,7 +32,7 @@ TT: The payment for each three-day-contract temporary employee
 
 TF: The payment for each five-day-contract temporary employee
 
-✨ Parameters	
+- Parameters	
 
 K[k][d]: KPI of official employee in area k on day d
 
@@ -40,7 +40,7 @@ SD[k][d]: Number of orders in area k for day shift d
 
 SD[k][d]: Number of orders in area k for night shift d
 
-✨ Decision Variables	
+- Decision Variables	
 
 XD[e][d][k]: Binary variable; XD[e][d][k]=1 if employee ⅇ is assigned to day shift d in area k, otherwise XD[e][d][k]=0
 
@@ -50,6 +50,7 @@ A[e][s][k]: Binary variable; A[e][s][k]=1 if employee ⅇ is assigned to shift s
 
 X[e]: Binary variable; X[e]=1 if the employee  ⅇ is used, otherwise X[e]=0
 
+- Explain: 
 
 The objective function focuses on minimizing the total cost of hiring temporary employees by analyzing the number of official and temporary workers needed for this scheduling horizon. 
 Based on the defined workload of each employee, constraints (1) and (2) satisfy the forecasting number of required orders on day shift and night shift, respectively.
